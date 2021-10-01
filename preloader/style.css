@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.load{
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+}
+.img{
+	margin-top: 250px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+
+}
+.img{
+
+	z-index: -1;
+}
+.disppear{
+
+animation: vanish 1s forwards;
+
+
+}
+@keyframes vanish {
+	100%{
+		opacity: 0;
+		visibility: hidden;
+	}
+}
